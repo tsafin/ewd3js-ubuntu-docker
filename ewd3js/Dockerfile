@@ -9,4 +9,4 @@ RUN 	apt-get update && \
  	./ewd-3-installers/ewd-xpress/install_gtm.sh && \
 	rm -rf /var/lib/apt/lists/*
 
-CMD bash
+CMD ["/bin/bash"]

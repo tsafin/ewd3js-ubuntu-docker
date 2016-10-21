@@ -1,3 +1,3 @@
 # ewd3js-gtm-docker 
 
-Docker image of EWD3.js installed with GT.M on Linux
+Docker images of EWD3.js with GT.M preinstalled, and with sole GT.M on Linux
