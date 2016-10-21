@@ -74,4 +74,3 @@ Exit it by typing the command H'
 rm -rf /tmp/tmp
 
 echo 'Done!'
-echo 'You should now be able to start  by typing: node ewd-xpress'
