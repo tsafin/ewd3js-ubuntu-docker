@@ -1,0 +1,11 @@
+FROM fis-gtm:ubuntu14.04
+
+MAINTAINER Timur Safin
+
+COPY	install_devtools.sh /root
+RUN 	chmod +x /root/install_devtools.sh
+RUN	["/root/install_devtools.sh"]
+
+VOLUME ["/tmp/fis-gtm"]
+
+ENTRYPOINT ["/bin/bash", "-l"]
