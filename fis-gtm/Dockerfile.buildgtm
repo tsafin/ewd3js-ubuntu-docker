@@ -4,6 +4,10 @@ MAINTAINER Timur Safin
 
 COPY	install_devtools.sh /root
 RUN 	chmod +x /root/install_devtools.sh
+COPY    dev-root/.gdbinit /root
+COPY    dev-root/run-gdb.sh /root
+COPY    dev-root/run-cmake.sh /root
+RUN	chmod +x /root/run-gdb.sh /root/run-cmake.sh
 RUN	["/root/install_devtools.sh"]
 
 VOLUME ["/tmp/fis-gtm"]
